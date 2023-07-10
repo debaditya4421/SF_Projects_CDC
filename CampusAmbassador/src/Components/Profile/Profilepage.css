@@ -1,0 +1,300 @@
+.form-boxpp {
+  width: 100%;
+  min-height: 100vh;
+  /* margin: 3rem auto 1rem auto; */
+  background-size: cover;
+  overflow-y: scroll;
+  /* background: url("./images/suggest-an-idea.jpg"); */
+
+  background: url('./images/sf-2019.jpg');
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.form-boxpp-idea
+{
+ 
+
+  background: url("./images/sf-2019.jpg") repeat 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-size: 100% 120%;
+}
+.form-boxpp-venue
+{
+
+  background: url("./images/venue-3.jpg") repeat  50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.form-boxpp-info
+{
+
+  background: url("./images/account-info-asli-sf.jpg") repeat  50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+.form-boxpp h2 {
+  text-align: center;
+  margin: 1rem auto 1rem auto;
+  background-image: linear-gradient(to left bottom,
+      rgb(145, 215, 248),
+      rgb(255, 255, 255));
+  /* -webkit-background-clip: text; */
+  color: transparent;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.profile {
+  width: 100%;
+}
+
+input::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.profile p {
+  color: rgb(255, 72, 0);
+  font-size: 0.6em;
+  text-align: right;
+  margin: 0;
+}
+
+.profile .inputfield {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0.1rem;
+  width: 100%;
+
+  border-bottom: 2px solid rgba(222, 250, 204, 0.338);
+  display: flex;
+  align-items: center;
+}
+
+.dateinput {
+  text-align: right;
+}
+
+.profile .inputfield input {
+  background: none;
+  border: none;
+  outline: none;
+  float: right;
+
+  color: white;
+  transition: all 0.3s;
+  padding: 3px;
+  /* margin-left: 0.5rem; */
+  width: 100%;
+}
+
+.profile .inputfield select {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  /* border-bottom: 2px solid rgba(222, 250, 204, 0.338); */
+  color: white;
+  margin-left: 0.2rem;
+  text-align: right;
+}
+
+.profile .inputfield select option {
+  background: rgba(4, 18, 55, 0.8);
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  /* border-bottom: 2px solid rgba(222, 250, 204, 0.338); */
+  color: white;
+  padding: 4px;
+
+}
+
+.profile .inputfield label {
+  margin-right: 0.5rem;
+  padding: 0.2rem 0.1rem 0px 0px;
+  left: 0;
+  line-height: 1.25;
+  color: #99eedf;
+  font-size: 0.8rem;
+  pointer-events: none;
+
+  width: 20%;
+}
+
+.profile .inputfield input:focus~.inputfield {
+  border-bottom: 3px solid rgb(180, 219, 231);
+  width: 100%;
+  background-color: black;
+}
+
+.profile ul {
+  color: rgb(155, 183, 169);
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.profile .captcha {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 850px) {
+  .profile .sgnbutton {
+    font-size: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form-box {
+    margin-top: 5rem;
+  }
+
+  .account-info-form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0em;
+  }
+  
+}
+
+@media only screen and (max-width: 530px) {
+  .form-box {
+    margin-top: 7rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .form-box {
+    padding: 0rem 1rem;
+    margin: 1rem auto 1rem auto;
+  }
+
+  .profile {
+    margin: 0em auto;
+  }
+
+  .profile .sgnbutton {
+    margin: 1em auto 1em auto;
+  }
+
+  .profile .captcha {
+    transform: scale(0.6);
+  }
+}
+
+.account-info-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+}
+
+.form-boxpp form {
+  background-color: rgba(0, 0, 0, 0.436) !important;
+  backdrop-filter: blur(13px);
+  outline: 1px solid white;
+  text-align: center;
+  box-shadow: 2px -2px 5px rgb(255, 255, 255);
+}
+.form-boxpp-venue form {
+  box-shadow: 2px -2px 5px rgb(240, 240, 9);
+}
+.form-boxpp-idea form {
+  box-shadow: 2px -2px 5px rgb(9, 225, 240);
+}
+.form-boxpp-info form {
+  box-shadow: 2px -2px 5px rgb(240, 9, 121);
+}
+
+.form-fields-account {
+  border: none;
+  border-bottom: 1px solid wheat;
+  background: none;
+
+}
+
+.form-fields-account:disabled {
+  opacity: 0.8;
+}
+@media screen and (max-width: 600px) {
+  .account-info-form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0em;
+  }
+  
+}
+
+#suggest-an-idea
+{
+  margin: 0 10%;
+  /* font-family: 'Abril Fatface', cursive; */
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 3.5em;
+  line-height: 1.2em;
+}
+#suggest-a-venue
+{
+  margin: 3.5% 10% 0% 10%;
+  /* font-weight: 700; */
+  font-size: 3.5em;
+  /* font-family: 'Bodoni Moda', serif; */
+  font-family: 'Fredericka the Great', cursive;
+  line-height: 1.2em;
+}
+#account-info
+{
+  /* margin: 3% 10% 0% 10%; */
+  /* font-weight: 700; */
+  font-size: 2.5em;
+  /* font-family: 'Kaushan Script', cursive; */
+  font-family: 'Fredericka the Great', cursive;
+
+  line-height: 1.2em;
+}
+.edit{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 3%;
+  cursor: pointer;
+}
+.cancel{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 3%;
+  cursor: pointer;
+}
+@media only screen and (max-width: 507px) {
+  #account-info {
+    font-size: 8vw ;
+  }
+}

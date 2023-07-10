@@ -1,0 +1,309 @@
+.aboutus {
+    /* background-image: linear-gradient(to bottom, rgba(216, 140, 140, 0.641), rgba(141, 133, 215, 0.647)), url(about.jpg); */
+
+    background: url("./about.jpg") repeat 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+    /* padding-bottom: 50px; */
+    overflow: hidden;
+    z-index: 10;
+    opacity: 0.9;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    /* border: 1px solid red; */
+    /* position: relative; */
+
+    /* position: absolute;
+        top:50%;
+        transform: translateY(-50%); */
+    padding: 10px 6rem 1rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.aboutus h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 5rem;
+    letter-spacing: 1px;
+    padding: 1rem 1rem 0 1rem;
+    margin: .5rem auto 3px auto;
+    font-family: 'Limelight';
+    font-family: 'Stick No Bills', sans-serif;
+
+    text-shadow: 2px 3px 5px rgb(206, 205, 205);
+}
+
+.pspan {
+    color: rgb(248, 240, 26);
+    font-size: 2rem;
+}
+
+.center {
+    text-align: center;
+    /* font-family: 'Stick No Bills', sans-serif; */
+}
+
+.aboutus p {
+    color: #c9c9ce;
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: .2px;
+    font-family: 'Montserrat';
+    padding: .2rem 2rem 0.1rem 2rem;
+    z-index: 5;
+    height: 42%
+}
+
+.progressbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem 5rem .5rem 5rem;
+    margin: 1px auto 0 auto;
+    height: 45%;
+    flex-wrap: nowrap;
+
+
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0.6rem 2.5rem 1.5rem 1.5rem;
+    height: 22rem;
+    width: 22rem;
+
+}
+
+.bar-txt {
+    position: absolute;
+    top: 90%;
+    font-size: 1.6rem;
+    margin-top: 5px;
+    font-weight: 600;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    letter-spacing: 1.2px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 5px rgb(114, 114, 114);
+    text-align: center;
+}
+
+.bar-num {
+    position: absolute;
+    top: 5%;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    text-shadow: 3px 3px 5px rgb(98, 98, 97);
+}
+@media screen and (max-width:1700px){
+    .aboutus h1{
+        font-size: 3rem;
+    }
+    .aboutus p{
+        font-size: 1.5rem;
+    }
+    .bar{
+        height: 16rem;
+        width: 16rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .bar {
+        height: 14rem;
+        width: 12rem;
+        padding-bottom: 0.3rem;
+    }
+
+    .progressbar {
+        column-gap: 4rem;
+        padding: 7rem;
+    }
+
+    .aboutus h1 {
+        font-size: 2.5rem;
+    }
+
+    .aboutus p {
+        font-size: 1.3rem;
+    }
+
+    .bar-num {
+        font-size: 1.5rem;
+    }
+
+    .bar-txt {
+        font-size: 1.2rem;
+
+    }
+
+    .aboutus {
+        padding: 10px 3rem 1rem 3rem;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    .bar {
+        height: 11rem;
+        width: 11rem;
+        margin: 0.6rem 1.5rem 1.5rem 1rem;
+    }
+
+    .progressbar {
+
+        padding: 5rem;
+        padding-top: 2rem;
+    }
+
+    .aboutus h1 {
+        font-size: 2.3rem;
+    }
+
+    .aboutus p {
+        font-size: 1.2rem;
+    }
+
+    .pspan {
+        font-size: 1.8rem;
+    }
+
+    .bar-num {
+        font-size: 1.3rem;
+    }
+
+    .bar-txt {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .bar {
+        height: 9rem;
+        width: 9rem;
+        margin: 0.6rem 1rem 1.5rem 1rem;
+    }
+
+    .progressbar {
+
+        padding: 1rem 7rem;
+
+
+    }
+
+    .aboutus h1 {
+        font-size: 2.2rem;
+    }
+
+    .aboutus p {
+        font-size: 1.1rem;
+    }
+
+    .pspan {
+        font-size: 1.6rem;
+    }
+
+    .bar-num {
+        font-size: 1.1rem;
+    }
+
+    .bar-txt {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:705px) {
+    .bar {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .progressbar {
+
+        padding: 1rem 2rem;
+
+
+
+    }
+
+    .aboutus h1 {
+        font-size: 3em;
+    }
+
+    .aboutus p {
+        font-size: 1rem;
+    }
+
+    .pspan {
+        font-size: 1.5rem;
+    }
+
+    .bar-num {
+        font-size: 1rem;
+    }
+
+    .bar-txt {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+
+    .progressbar {
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+    .aboutus {
+        padding: 30px .5rem;
+    }
+
+    .aboutus p {
+        font-size: .9rem;
+    }
+
+}
+
+@media screen and (max-height:700px) and (min-width:1100px) {
+    .aboutus p {
+        font-size: 1.3rem;
+    }
+
+    /* .aboutus{
+        padding: 10px 3rem 1rem 3rem;
+    } */
+    .bar-num{
+        font-size: 1.5rem;
+    }
+
+}
+
+.aboutus-content
+{
+    transform: scale(1);
+}
+
+@media screen and (min-width: 1800px){
+    .aboutus h1 
+    {
+        font-size: 7em;
+    }
+  }

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: centurygothic;
+    src:local("CenturyGothic"), url("./GOTHIC.TTF") format(opentype);
+}
+@font-face {
+    font-family: allenia;
+    src:local("AlleniaRegular"), url("./allenia-regular-free.otf") format(opentype);
+}
+html,body,.root,.App{
+    height: 100%;
+}
+.sf-logo {
+    height: 80px;
+    width: 80px;
+    display: block;
+    position: fixed;
+    inset: 0;
+    left: 5px;
+    border: white;
+    top: 5px;
+    padding: 5px;
+    z-index: 99;
+    user-select: none;
+}
+.preloader{
+    z-index: 1000000000000;
+}

@@ -1,0 +1,103 @@
+.GallerForMobileView{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mobileGalleryContainer{
+    background-image: url(./BookImges/nwp-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    height:100vh;
+    width:100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.GalleryMobileHeading{
+  position: absolute;
+  top: 0;
+  font-size: 45px;
+  line-height: 1;
+  font-weight: bold;
+  color:white;
+  align-self: center;
+  margin:20px 0;
+  z-index: 2;
+  padding:0 20px;
+}
+  .MobileGalleryImage1 {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    margin: 5rem auto;
+    border: 2px solid white;
+    background-color: #266E9F;
+  }
+  .MobileGalleryImage1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-6deg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+  }
+  .galimg1, .galimg2{
+    opacity:0;
+    position:absolute;
+    inset:0;
+    transition:2s;
+}
+  @media screen and (min-width: 931px){
+    .GalleryForMobileAll{
+        display: none;
+    }
+  }
+  @media screen and (max-width: 931px){
+    .MobileGalleryImage1 {
+        /* width:300px; */
+        height:330px;
+        margin:3.5rem 0;
+    }
+  }
+  @media screen and (max-width: 675px){
+    .MobileGalleryImage1 {
+        width:300px;
+    }
+  }
+  @media screen and (max-width: 556px){
+    .GalleryMobileHeading{
+      font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .MobileGalleryImage1 {
+        height: 200px;
+    }
+    .GalleryMobileHeading{
+      transform: translateX(-50px);
+    }
+  }
+  @media screen and (max-width: 399px){
+    .GalleryMobileHeading{
+      transform: translateY(60px);
+    }
+  }
+  @media screen and (max-width: 350px){
+    .MobileGalleryImage1 {
+        width:250px;
+    }
+  }
+  @media screen and (max-width: 300px){
+    .MobileGalleryImage1 {
+        width:220px;
+    }
+  }

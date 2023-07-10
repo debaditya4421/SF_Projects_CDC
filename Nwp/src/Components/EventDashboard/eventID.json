@@ -1,0 +1,231 @@
+{
+    "categories": [
+      {
+        "category": "Dance",
+        "events": [
+          {
+            "id": 6,
+            "name": "Centrifuge"
+          },
+          {
+            "id": 76,
+            "name": "Nrityakala"
+          },
+          {
+            "id": 1,
+            "name": "Shake A Leg"
+          },
+          {
+            "id": 79,
+            "name": "Shuffle"
+          },
+          {
+            "id": 5,
+            "name": "Two For A Tango"
+          }
+        ]
+      },
+      {
+        "category": "Music",
+        "events": [
+          {
+            "id": 65,
+            "name": "Beat It"
+          },
+          {
+            "id": 86,
+            "name": "Lakeside Dreams"
+          },
+          {
+            "id": 75,
+            "name": "Notes Less Travelled"
+          },
+          {
+            "id": 77,
+            "name": "Rapmania"
+          },
+          {
+            "id": 78,
+            "name": "Retrowave"
+          },
+          {
+            "id": 10,
+            "name": "SF Idol"
+          },
+          {
+            "id": 85,
+            "name": "Wildfire"
+          }
+        ]
+      },
+      {
+        "category": "Dramatics",
+        "events": [
+          {
+            "id": 16,
+            "name": "I Me Myself"
+          },
+          {
+            "id": 83,
+            "name": "Mime"
+          },
+          {
+            "id": 80,
+            "name": "Nukkad"
+          },
+          {
+            "id": 14,
+            "name": "Rangmanch"
+          }
+        ]
+      },
+      {
+        "category": "Literary",
+        "events": [
+          {
+            "id": 17,
+            "name": "A Mighty Pen"
+          },
+          {
+            "id": 19,
+            "name": "Dumb C"
+          },
+          {
+            "id": 24,
+            "name": "English Poetry Slam"
+          },
+          {
+            "id": 67,
+            "name": "Hindi Poetry Slam"
+          },
+          {
+            "id": 18,
+            "name": "Impromptu"
+          },
+          {
+            "id": 23,
+            "name": "India Calling"
+          },
+          {
+            "id": 21,
+            "name": "Jumble The Good Word"
+          },
+          {
+            "id": 84,
+            "name": "Just A Minute"
+          },
+          {
+            "id": 20,
+            "name": "National Level Debate"
+          }
+        ]
+      },
+      {
+        "category": "Film Fest",
+        "events": [
+          {
+            "id": 27,
+            "name": "A Picture Tale"
+          },
+          {
+            "id": 68,
+            "name": "SFM"
+          }
+        ]
+      },
+      {
+        "category": "Quiz",
+        "events": [
+          {
+            "id": 32,
+            "name": "BIZTECH"
+          },
+          {
+            "id": 29,
+            "name": "Mary Bucknel Trophy"
+          },
+          {
+            "id": 44,
+            "name": "SpEnt"
+          }
+        ]
+      },
+      {
+        "category": "Fine Arts",
+        "events": [
+          {
+            "id": 38,
+            "name": "Bran-D"
+          },
+          {
+            "id": 90,
+            "name": "Face Canvas"
+          },
+          {
+            "id": 89,
+            "name": "Finger Painting"
+          },
+          {
+            "id": 35,
+            "name": "Paint It"
+          },
+          {
+            "id": 36,
+            "name": "Sketch It"
+          }
+        ]
+      },
+      {
+        "category": "Food Fest",
+        "events": [
+          {
+            "id": 55,
+            "name": "Chefs Corner"
+          },
+          {
+            "id": 88,
+            "name": "Food Carving"
+          },
+          {
+            "id": 87,
+            "name": "Mixology"
+          },
+          {
+            "id": 57,
+            "name": "Top It to Win It"
+          }
+        ]
+      },
+      {
+        "category": "Fashion",
+        "events": [
+          {
+            "id": 72,
+            "name": "Mr and Ms SPRING FEST"
+          },
+          {
+            "id": 70,
+            "name": "Navyata"
+          },
+          {
+            "id": 41,
+            "name": "Panache"
+          },
+          {
+            "id": 71,
+            "name": "Stash N Show"
+          }
+        ]
+      },
+      {
+        "category": "Humor Fest",
+        "events": [
+          {
+            "id": 81,
+            "name": "Hilarity Ensues"
+          }
+        ]
+      }
+    ],
+    "status_code": 200
+  }

@@ -1,0 +1,91 @@
+{
+    "venues":
+    [
+        {
+            "city":"Ahmedabad",
+            "venue":"Shree Balaji Agora Mall",
+            "date":"7th October 11:00 AM onwards"
+        },
+        {
+            "city":"Banglore",
+            "venue":"Echo Academy",
+            "date":"9th October 9:00 AM onwards"
+        },
+        {
+            "city":"Bhubaneshwar",
+            "venue":"Venue will be anounced soon",
+            "date":""
+        },
+        {
+            "city":"Chandigarh",
+            "venue":"Venue will be anounced soon",
+            "date":""
+        },
+        {
+            "city":"Chennai",
+            "venue":"Venue will be anounced soon",
+            "date":""
+        },
+        {
+            "city":"Delhi",
+            "venue":"Delhi Technological University , Shahbad Daulatpur, Main Bawana Road, DL - 42, IN",
+            "date":""
+        },
+        {
+            "city":"Guwahati",
+            "venue":"Venue will be anounced soon",
+            "date":""
+        },
+        {
+            "city":"Hyderabad",
+            "venue":"Venue will be anounced soon",
+            "date":""
+        },
+        {
+            "city":"Jaipur",
+            "venue":"Swami Keshvanand Institute of Technology (SKIT)",
+            "date":"8th October 11:00 AM onwards"
+        },
+        {
+            "city":"Kolkata",
+            "venue":"Venue will be anounced soon",
+            "date":""
+        },
+        {
+            "city":"Lucknow",
+            "venue":"Singapore Mall",
+            "date":"9th October 11:00 AM onwards"
+        },
+        {
+            "city":"Mumbai",
+            "venue":"Infinity Mall, Malad",
+            "date":"7th October 11:00 AM onwards"
+        },
+        {
+            "city":"Nagpur",
+            "venue":"Venue will be anounced soon",
+            "date":""
+        },
+        {
+            "city":"Patna",
+            "venue":"Venue will be anounced soon",
+            "date":""
+        },
+        {
+            "city":"Pune",
+            "venue":"Venue will be anounced soon",
+            "date":""
+        },
+        {
+            "city":"Ranchi",
+            "venue":"Venue will be anounced soon",
+            "date":""
+        },
+        {
+            "city":"Bhopal",
+            "venue":"Capital Mall",
+            "date":"9th October 11:00 AM onwards"
+        }
+        
+    ]
+}

@@ -1,0 +1,244 @@
+body{
+    background-color: black;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.preloader-parent {
+    /* background-color: black; */
+    height: 100vh;
+    min-width: 100vw;
+    display: grid;
+    /* overflow: hidden; */
+    place-items: center;
+}
+
+.sf-logo-preloader {
+    /* height: 250px; */
+    height: 250px;
+    filter: drop-shadow(0 0 6px #CB8351);
+    margin-top: 50px;
+    /* animation: glow infinte 2s; */
+    animation-name: glow;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@media screen and (min-width : 1000px) {
+    .sf-logo-preloader
+    {
+        height: 300px;
+    }
+}
+
+@keyframes glow {
+    0% {
+        /* filter: drop-shadow(0 0 100px #CB8351); */
+        filter: drop-shadow(0 0 100px #ff6a00);
+    }
+
+    50% {
+        filter: drop-shadow(0 0 100px #ffffff);
+    }
+
+    100% {
+        filter: drop-shadow(0 0 100px #ff6a00);
+    }
+
+}
+
+/* loading animation  */
+
+/* body {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffc12f;
+  font-size: 9px;
+  letter-spacing: 3px;
+  word-spacing: -3px;
+  font-family: "Handlee", cursive;
+  word-break: break-all;
+  text-transform: lowercase;
+  text-align: justify;
+} */
+
+.loader {
+    height: 600px;
+    width: 370px;
+    min-height: 600px;
+    min-width: 370px;
+    position: relative;
+    transform: scale(0.2) translateY(-950px);
+    animation-name: flip;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flip {
+    0% {
+        transform: scale(0.2) translateY(-950px);
+    }
+
+
+    16.67% {
+        transform: scale(0.2) translateY(-950px) rotateZ(0deg);
+    }
+
+    33.33% {
+        transform: scale(0.2) translateY(-950px) rotateZ(180deg);
+    }
+
+    66.67% {
+        transform: scale(0.2) translateY(-950px) rotateZ(180deg);
+    }
+
+    83.33% {
+        transform: scale(0.2) translateY(-950px) rotateZ(0deg);
+    }
+
+    100% {
+        transform: scale(0.2) translateY(-950px) rotateZ(0deg);
+
+    }
+
+}
+
+.sand-glass {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.left {
+    float: left;
+    height: 600px;
+    width: 185px;
+    shape-outside: polygon(28.02% 20.16%,
+            31.19% 24.27%,
+            38.11% 28.45%,
+            44.41% 31.04%,
+            52.05% 33.74%,
+            62.2% 36.7%,
+            73.68% 40.41%,
+            85.7% 43.87%,
+            93.86% 46.76%,
+            95.93% 49.82%,
+            92.99% 52.68%,
+            84.97% 55.68%,
+            74.71% 58.9%,
+            62.45% 62.08%,
+            51.06% 65.97%,
+            38.3% 70.39%,
+            31.77% 74.35%,
+            28.05% 77.43%,
+            26.43% 81.78%,
+            29.57% 87.93%,
+            31.96% 89.53%,
+            74.63% 89.54%,
+            99.45% 89.64%,
+            99.42% 99.51%,
+            7px 98.41%,
+            2.41% 0.11%,
+            100.02% 0.23%,
+            98.8% 7.51%,
+            31.62% 9.11%,
+            28.98% 10.56%,
+            26.76% 15.66%);
+}
+
+.right {
+    float: right;
+    height: 600px;
+    width: 185px;
+    shape-outside: polygon(97.62% 3px,
+            97.75% 96.93%,
+            0.24% 97.87%,
+            0.18% 89.7%,
+            68.14% 89.59%,
+            72.36% 85.4%,
+            72.59% 80.65%,
+            70.95% 76.24%,
+            63.8% 71.09%,
+            49.46% 65.97%,
+            35.84% 60.6%,
+            20.99% 56.65%,
+            10.96% 53.59%,
+            6.38% 50.94%,
+            6.08% 47.98%,
+            13.27% 44.94%,
+            25.53% 41.13%,
+            37.15% 37.95%,
+            48.16% 34.24%,
+            56.34% 31.69%,
+            62.82% 28.26%,
+            69.66% 24.95%,
+            74.71% 19.31%,
+            73.51% 13.67%,
+            69.44% 9.61%,
+            -0.59% 9.3%,
+            -0.44% -0.02%);
+}
+
+.preloader-para {
+    padding-top: 82px;
+    animation: hourglass 6s ease-in;
+    animation-fill-mode: forwards;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    color: gold;
+    word-break: break-all;
+}
+
+/* @keyframes hourglass {
+
+    remove filter to see without blur   
+    15% {
+        filter: blur(1px);
+    }
+
+    80% {
+        padding-top: 390px;
+
+    }
+
+    100% {
+        padding-top: 0px;
+
+    }
+} */
+@keyframes hourglass {
+    0% {
+        padding-top: 195px;
+        
+    }
+
+
+    16.67% {
+        padding-top: 390px
+    }
+
+    33.33% {
+        padding-top: 390px
+    }
+
+    66.67% {
+        padding-top: 0px
+
+    }
+
+    83.33% {
+        padding-top: 0px
+    }
+
+    100% {
+        
+        padding-top: 195px;
+    }
+
+}

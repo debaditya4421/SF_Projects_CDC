@@ -1,0 +1,275 @@
+.landing-page {
+    /* background: url("./images/landing-page-final1.png") repeat fixed 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+
+    /* background: url('./images/landing-page-final1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    height: 100vh;
+    width: 100%;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.landingpage-video{
+    position: absolute;
+    align-items: stretch;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    filter: opacity(80%);
+    z-index: -100000;
+}
+@media only screen and (min-width: 0px) and (max-width: 900px) {
+    .landing-page {
+
+        background: url('./images/landing-page-final1.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+.get-started {
+    padding: 5px 3px;
+    /* border: rgb(255, 255, 255) solid 2px; */
+    /* background-color: rgb(17, 5, 183); */
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    top: 85%;
+    opacity: 0;
+    left: 46%;
+    margin-top: 50px;
+    padding: 8px;
+    color: #ffa50d;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 1.5rem;
+    transition: 2s ease;
+    animation: fadegetstarted forwards 0.75s ease-in-out;
+    animation-delay: 1s;
+}
+
+.login {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #ffa50d;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.cloud-name:hover {
+    text-shadow: 0px 0px 20px white;
+}
+
+.butto {
+    transition: 2s ease;
+    opacity: 0;
+    color: #ffa50d;
+    font-family: 'Cinzel Decorative', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.butto1 {
+    transition: 2s ease;
+    color: #ffa50d;
+    font-family: 'Cinzel Decorative', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1rem;
+    opacity: 0;
+    animation: fadegetstarted forwards 3s ease-in-out;
+
+}
+
+.cloud-img {
+    z-index: 0;
+    cursor: pointer;
+}
+
+.start-cloud {
+    width: 8%;
+    transform: translateY(-100%)
+}
+
+.cloud-name {
+    transform: translateY(25px);
+    font-size: 2rem;
+    z-index: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#video{
+    transition: 550ms ease-in;
+    opacity: 0;
+}
+.hitch-hike {
+    height: 60%;
+    width: auto;
+    scale: 0.9;
+    animation: moveup 1.5s forwards ease-in-out;
+    transition: 0.5s ease;
+    opacity: 0;
+    transform: translateY(100px);
+
+}
+
+.login {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
+
+.landing-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.landing-button {
+    position: absolute;
+    top: 0%;
+    left: -80%;
+    right: -80%;
+    bottom: 0%;
+    display: none;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, auto);
+    transition: all 2s ease;
+    overflow-block: hidden;
+}
+
+.landing-button-container {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    right: 0%;
+    bottom: 10%;
+    overflow: hidden;
+    display: none;
+}
+.button-5{
+    display: none;
+}
+@media only screen and (min-width: 600px) and (max-width: 930px) {
+    .landing-button{
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
+    }
+    .button-5{
+        grid-column: 1/span 2;
+        display: flex;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    .landing-button {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(5, auto);
+    }
+
+    .butto {
+        padding: 0 15px;
+    }
+
+    .button-1 {
+        justify-self: start;
+        /* display: none; */
+    }
+
+    .button-2 {
+        justify-self: end;
+        /* display: none; */
+    }
+
+    .button-3 {
+        justify-self: start;
+        /* display: none; */
+    }
+
+    .button-4 {
+        justify-self: end;
+        /* display: none; */
+    }
+    .button-5{
+        justify-self: start;
+        display: flex;
+
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 900px) {
+    .hitch-hike {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@keyframes moveup {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes fadegetstarted {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.BackButtonLandingPage {
+    position: fixed;
+    left: -2px;
+    top: 60px;
+    color: white;
+    cursor: pointer;
+    scale: 1.8;
+    font-size: 1.5em;
+    font-weight: bolder;
+    /* background-color: black; */
+    z-index: 10;
+    user-select: none;
+    width: 75px;
+    height: 75px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.modalRules-points {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+}
+.landingPageButtonHover{
+    cursor: pointer;
+}

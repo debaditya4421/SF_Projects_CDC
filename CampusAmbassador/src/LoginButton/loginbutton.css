@@ -1,0 +1,18 @@
+@import url('http://fonts.cdnfonts.com/css/allenia');
+
+#loginbtn{
+    position: fixed;
+  font-family: 'Domine', serif;
+    text-shadow: 0.5px 0 0 rgb(9, 25, 78) , 0  0.5px 0  rgb(9, 25, 78) , 0 0  0.5px  rgb(9, 25, 78) ,1px 0 0 rgb(9, 25, 78) , 0  1px 0  rgb(9, 25, 78) , 0 0  1px  rgb(9, 25, 78) , 0.7px 0 0 rgb(9, 25, 78) , 0  0.7px 0  rgb(9, 25, 78) , 0 0  0.7px  rgb(9, 25, 78) , 0.3px 0 0 rgb(9, 25, 78) , 0  0.3px 0  rgb(9, 25, 78) , 0 0  0.3px  rgb(9, 25, 78);
+    right: 90px;
+    font-size: large;
+    top:24px;
+    color: rgb(9, 25, 78);
+    cursor: pointer;
+    z-index: 10000;
+    background-color: white;
+    user-select: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+ 

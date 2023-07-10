@@ -1,0 +1,12 @@
+
+.whatsapp-back{
+    display: inline-block;
+    background-color: white;
+    height: 18px;
+    width: 18px;
+    transform:translateX(1px) translateY(1px);
+    border-radius: 50%;
+    z-index: 28;
+    position: absolute;
+    left: 0;
+}

@@ -1,0 +1,18 @@
+.BackButton {
+    position: fixed;
+    left: -2px;
+    top: 60px;
+    color: white;
+    cursor: pointer;
+    scale: 1.8;
+    font-size: 1.5em;
+    font-weight: bolder;
+    /* background-color: black; */
+    z-index: 10;
+    user-select: none;
+    width: 75px;
+    height: 75px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}

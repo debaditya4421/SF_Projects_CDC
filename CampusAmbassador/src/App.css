@@ -1,0 +1,55 @@
+
+.p{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: rotate(-180deg);
+    transform-origin: 150% 50%;
+    background-color:gray;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+
+#outc{
+    transform: rotate(0deg);
+    animation: outc 1.0s forwards ease-in-out;
+}
+@keyframes outc {
+    100% {transform: rotate(180deg);}
+}
+
+#outac{
+    transform: rotate(0deg);
+    animation: outac 1.0s forwards ease-in-out;
+}
+@keyframes outac {
+    100% {transform: rotate(-180deg);}
+}
+
+#inc{
+    animation: inc 1.0s forwards ease-in-out;
+}
+@keyframes inc {
+    100% {transform: rotate(0deg);}
+}
+
+#inac{
+    animation: inac 1.0s forwards ease-in-out;
+}
+@keyframes inac {
+    100% {transform: rotate(-360deg);}
+}
+
+#x {
+    transform: rotate(0deg);
+}
+
+@media screen and (max-width:700px) {
+    .p{
+        height: auto;
+        overflow: auto;
+        /* width: 100%; */
+    }
+}

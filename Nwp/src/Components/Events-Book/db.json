@@ -1,0 +1,291 @@
+{
+    "cities": [
+      {
+        "city": "Banglore",
+        "events": [
+          "SF idol",
+          "Shake a leg",
+          "Hilarity ensues",
+          "Shuffle",
+          "Two for a Tango",
+          "Nrityakala",
+          "Nukkad",
+          "I me myself",
+          "Hindi Poetry slam",
+          "English Poetry slam",
+          "Mime",
+          "Rapmania",
+          "Beat it",
+          "A picture tale"
+        ]
+      },
+      {
+        "city": "Delhi",
+        "events": [
+          "Hilarity ensues",
+          "SF idol",
+          "Shake a leg",
+          "Shuffle",
+          "Two for a Tango",
+          "Nrityakala",
+          "Nukkad",
+          "I me myself",
+          "Rapmania",
+          "Beat it",
+          "Hindi Poetry slam",
+          "English Poetry slam",
+          "Mime",
+          "A picture tale"
+        ]
+      },
+      {
+        "city": "Guwahati",
+        "events": [
+          "SF idol",
+          "Shake a leg",
+          "Shuffle",
+          "Two for a Tango",
+          "Nrityakala",
+          "Nukkad",
+          "I me myself",
+          "Hindi Poetry slam",
+          "English Poetry slam",
+          "Mime",
+          "A picture tale"
+        ]
+      },
+      {
+        "city": "Chennai",
+        "events": [
+          "SF idol",
+          "Shake a leg",
+          "Shuffle",
+          "Two for a Tango",
+          "Nrityakala",
+          "Nukkad",
+          "I me myself",
+          "Hindi Poetry slam",
+          "English Poetry slam",
+          "Mime",
+          "A picture tale"
+        ]
+      },
+      {
+          "city": "Kolkata",
+          "events": [
+            "SF idol",
+            "Shake a leg",
+            "Shuffle",
+            "Two for a Tango",
+            "Nrityakala",
+            "Nukkad",
+            "I me myself",
+            "Hindi Poetry slam",
+            "English Poetry slam",
+            "Mime",
+            "A picture tale"
+          ]
+        },
+        {
+          "city": "Lucknow",
+          "events": [
+            "SF idol",
+            "Shake a leg",
+            "Shuffle",
+            "Two for a Tango",
+            "Nrityakala",
+            "Nukkad",
+            "I me myself",
+            "Hindi Poetry slam",
+          "English Poetry slam",
+            "Mime",
+            "A picture tale"
+          ]
+        },
+        {
+          "city": "Mumbai",
+          "events": [
+            "SF idol",
+            "Hilarity ensues",
+            "Shake a leg",
+            "Shuffle",
+            "Two for a Tango",
+            "Nrityakala",
+            "Rapmania",
+            "Beat it",
+            "Nukkad",
+            "I me myself",
+            "Hindi Poetry slam",
+          "English Poetry slam",
+            "Mime",
+            "A picture tale"
+          ]
+        },
+        {
+          "city": "Nagpur",
+          "events": [
+            "SF idol",
+            "Shake a leg",
+            "Shuffle",
+            "Two for a Tango",
+            "Nrityakala",
+            "Nukkad",
+            "I me myself",
+            "Hindi Poetry slam",
+          "English Poetry slam",
+            "Mime",
+            "A picture tale"
+          ]
+        },
+        {
+          "city": "Patna",
+          "events": [
+            "SF idol",
+            "Shake a leg",
+            "Shuffle",
+            "Two for a Tango",
+            "Nrityakala",
+            "Nukkad",
+            "I me myself",
+            "Hindi Poetry slam",
+            "English Poetry slam",
+            "Mime",
+            "A picture tale"
+          ]
+        },
+        {
+          "city": "Pune",
+          "events": [
+            "SF idol",
+            "Shake a leg",
+            "Hilarity ensues",
+            "Shuffle",
+            "Two for a Tango",
+            "Nrityakala",
+            "Nukkad",
+            "I me myself",
+            "Hindi Poetry slam",
+           "English Poetry slam",
+            "Mime",
+            "Rapmania",
+            "Beat it",
+            "A picture tale"
+          ]
+        },
+        {
+          "city": "Raipur",
+          "events": [
+            "SF idol",
+            "Shake a leg",
+            "Shuffle",
+            "Two for a Tango",
+            "Nrityakala",
+            "Nukkad",
+            "I me myself",
+            "Hindi Poetry slam",
+          "English Poetry slam",
+            "Mime",
+            "A picture tale"
+          ]
+        },
+        {
+          "city": "Chandigarh",
+          "events": [
+            "SF idol",
+            "Shake a leg",
+            "Shuffle",
+            "Hilarity ensues",
+            "Two for a Tango",
+            "Nrityakala",
+            "Nukkad",
+            "I me myself",
+            "Hindi Poetry slam",
+            "English Poetry slam",
+            "Mime",
+            "A picture tale"
+          ]
+        },
+        {
+          "city": "Hyderabad",
+          "events": [
+            "SF idol",
+            "Shake a leg",
+            "Shuffle",
+            "Hilarity ensues",
+            "Two for a Tango",
+            "Nrityakala",
+            "Nukkad",
+            "I me myself",
+            "Hindi Poetry slam",
+          "English Poetry slam",
+            "Mime",
+            "A picture tale"
+          ]
+        },
+        {
+          "city": "Jaipur",
+          "events": [
+            "SF idol",
+            "Shake a leg",
+            "Shuffle",
+            "Two for a Tango",
+            "Nrityakala",
+            "Nukkad",
+            "I me myself",
+            "Hindi Poetry slam",
+            "English Poetry slam",
+            "Mime",
+            "A picture tale"
+          ]
+        },
+        {
+          "city": "Bhubaneshwar",
+          "events": [
+            "SF idol",
+            "Shake a leg",
+            "Shuffle",
+            "Two for a Tango",
+            "Nrityakala",
+            "Nukkad",
+            "I me myself",
+            "Hindi Poetry slam",
+            "English Poetry slam",
+            "Mime",
+            "A picture tale"
+          ]
+        },
+        {
+          "city": "Ahmedabad",
+          "events": [
+            "SF idol",
+            "Shake a leg",
+            "Shuffle",
+            "Two for a Tango",
+            "Hilarity ensues",
+            "Nrityakala",
+            "Nukkad",
+            "I me myself",
+            "Hindi Poetry slam",
+            "English Poetry slam",
+            "Mime",
+            "A picture tale"
+          ]
+        },
+        {
+          "city": "Ranchi",
+          "events": [
+            "SF idol",
+            "Shake a leg",
+            "Shuffle",
+            "Two for a Tango",
+            "Nrityakala",
+            "Nukkad",
+            "I me myself",
+            "Hindi Poetry slam",
+           "English Poetry slam",
+            "Mime",
+            "A picture tale"
+          ]
+        }
+    ]
+  }
